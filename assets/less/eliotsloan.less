@@ -1,0 +1,47 @@
+//
+// Eliot Sloan
+// --------------------------------------------------
+
+
+
+
+
+// Tweets
+// --------------------------
+
+.tweets {
+  margin: (@baseLineHeight * 2);
+}
+
+.tweet,
+.query {
+  color: #999;
+}
+
+.tweet-list {
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+  list-style: none;
+  background-color: #eee;
+  .border-radius(8px);
+  li {
+    padding: (@baseLineHeight / 2);
+    overflow-x: hidden;
+    overflow-y: auto;
+    list-style-type: none;
+  }
+  li > a {
+    color: #0C717A;
+  }
+  .tweet-even {
+    background-color: #f8f8f8;
+  }
+  .tweet-avatar {
+    float: left;
+    padding-right: (@baseLineHeight / 2);
+  }
+  .tweet-avatar > img {
+    vertical-align: middle;
+  }
+}
